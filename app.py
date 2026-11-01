@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 import joblib
 import sys
-sys.path.append("modules")
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "modules")))
 
 from data_processing import run_dataset_module
 from exploratory_analysis import run_eda_module
@@ -22,7 +24,9 @@ menu = st.sidebar.selectbox(
 
 @st.cache_resource
 def load_model():
-    return joblib.load("trained_model.joblib")
+    
+    model_path = os.path.join(os.path.dirname(__file__), "trained_model.joblib")
+    return joblib.load(model_path)
 
 model = load_model()
 
@@ -53,5 +57,3 @@ elif menu == "Dashboard":
     run_dashboard_module()
 elif menu == "System Design":
     run_sad_module()
-
-    
