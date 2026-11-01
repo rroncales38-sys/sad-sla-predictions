@@ -1,0 +1,22 @@
+
+Request_ID,Service_Type,Requester_Type,Request_Channel,Priority,Assigned_Office,Queue_Length,Status,Processing_Days,SLA_Days,Satisfaction_Score,Submission_Date
+REQ001,Admission,Student,Online,High,Registrar,12,Completed,5,3,3.2,2026-10-01
+REQ002,Enrollment,Student,In-Person,Medium,Registrar,5,Completed,2,5,4.1,2026-10-02
+REQ003,Grading,Faculty,Email,Low,Academic,2,Completed,1,7,4.5,2026-10-03
+REQ004,Records,Student,Online,High,Registrar,15,Completed,6,3,2.8,2026-10-04
+REQ005,ID Issuance,Student,In-Person,Medium,Student Affairs,8,Completed,3,5,3.9,2026-10-05
+REQ006,Admission,Parent,Online,High,Finance,11,Completed,4,3,3.0,2026-10-06
+REQ007,Enrollment,Student,Online,Low,IT Services,1,Completed,1,7,4.8,2026-10-07
+REQ008,Grading,Faculty,In-Person,Medium,Academic,6,Completed,3,5,4.0,2026-10-08
+REQ009,Records,Alumni,Email,High,Registrar,14,Completed,5,3,2.5,2026-10-09
+REQ010,ID Issuance,Student,Online,Low,Student Affairs,3,Completed,1,7,4.6,2026-10-10
+REQ011,Admission,Student,In-Person,Medium,Registrar,7,Completed,3,5,3.8,2026-10-11
+REQ012,Enrollment,Student,Online,High,Finance,10,Completed,4,3,2.9,2026-10-12
+REQ013,Grading,Faculty,Email,Low,Academic,2,Completed,1,7,4.7,2026-10-13
+REQ014,Records,Student,In-Person,High,IT Services,13,Completed,5,3,2.6,2026-10-14
+REQ015,ID Issuance,Student,Online,Medium,Student Affairs,6,Completed,2,5,4.2,2026-10-15
+REQ016,Admission,Student,Online,High,Registrar,9,Completed,4,3,3.1,2026-10-16
+REQ017,Enrollment,Student,In-Person,Low,Finance,4,Completed,2,7,4.4,2026-10-17
+REQ018,Grading,Faculty,Email,High,Academic,11,Completed,5,3,2.7,2026-10-18
+REQ019,Records,Student,Online,Medium,Registrar,7,Completed,3,5,3.9,2026-10-19
+REQ020,ID Issuance,Student,In-Person,Low,Student Affairs,2,Completed,1,7,4.9,2026-10-20
